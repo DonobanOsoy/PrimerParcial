@@ -1,0 +1,142 @@
+article{
+    box-sizing: content-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body * {
+    box-sizing: content-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0PX;
+    padding: 0%;  
+}
+body{
+    background-color: rgb(206, 226, 216);
+    margin: 0px;
+    padding: 0%;
+}
+
+
+h3, h6,h1{
+
+    padding: 10px;
+    text-align: center;
+}
+header{
+    margin: 0px;
+    padding: 0%;
+    background-color:rgb(156, 53, 53);
+}
+
+
+header nav{
+    background-color: rgb(37, 37, 37);
+
+}
+.header img{
+    width: 90%;
+    
+    top:10%;
+   margin-left: 25px;
+    
+ }
+nav li{
+    padding: 10px;
+    display: inline-block;
+}
+nav a{
+    color:linen;
+    padding: 10px;
+    text-decoration: none;
+}
+
+main div li{
+    display: block;
+}
+
+main nav a{
+    color:rgb(14, 7, 1);
+    padding: 10px;
+    text-decoration: none;
+
+}
+main div {
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
+table th, table td
+{
+    border:1px solid black;
+   border-collapse: collapse;
+}
+
+
+footer{
+    color: aliceblue;
+    background-color: black;
+}
+
+table img{
+    margin: auto;
+    width:100px;
+}
+li img{
+    margin: auto;
+    width: 100px;
+}
+article img{
+    margin: auto;
+    width: 590px;
+}
+
+.ro2cols{
+    display:grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+@media screen and (max-width:600px) {
+    .ro2cols{
+       
+        grid-template-columns: 1fr}
+}
+@media screen and (max-width:900px) {
+    .header img{
+        width: 90%;
+        top:10%
+        
+     }
+}
+/*@media screen and (max-width:900px) {
+    .header img{
+        width: 90%;
+        top:10%
+        
+     }
+}*/
+form a{
+    padding: 15px;
+    margin-top: 15px
+    ;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+article{
+    box-sizing: content-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form{
+
+    width: 400px;
+    color: white;
+    background-color: rgb(1, 7, 6);
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+form img{
+    margin: -25px;
+    width: 100px;
+    align-self: center;
+}
